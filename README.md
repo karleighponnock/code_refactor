@@ -42,8 +42,33 @@ Line 64 remove closing img tag- img is self closing
 
 #css
 
+Line 11, 18, 23, 27, 35, 39 selector . removed. Semantic tag does not need a dot as it is no longer a class
+
+Line 27 selector changed to header nav 
+
+Line 35  selector changed to header nav ul li
 
 
+Line 89 selector changed to .benefits . benefit
+Three css blocks condensed into this one
+
+Line 95 selecor named .benefit .benefit .h3 to call on new classes
+Three css blocks condensed into this one
+
+
+Line 101 Selector .benefit img to match new class
+Three img selectors condensed into this one
+
+Line 108 Three css sections condensed into this one with a selector of .contents
+
+Line 117 Three css sections condensed into this one with a selector .contents img for new class and img attribute
+
+Line 121 Three css sections condensed into one here with a selector of .contents h2 for new class and h2 tags
+
+
+Line 126 footer remove . becuse it is s footer tag not a class anymore
+
+Line 133 selector changed to footer h2 . removed from footer as it is not longer a class 
 
 
 
