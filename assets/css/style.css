@@ -47,15 +47,18 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* text attributes for links in nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* set paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* First visual element seen large image on opening page */
 .hero {
     height: 800px;
     width: 100%;
@@ -65,22 +68,46 @@ p {
     background-position: center;
 }
 
+/* Organizes and styles content of all three section */
+.contents{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Set size of images in each section */
+.contents img {
+    max-height: 200px;
+    }
+    
+/* Section headings style attributes */
+.contents h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    }
+
+/* Sets second sections image to left side of page a cerain distance from the edge =*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Sets second sections image to right side of page a cerain distance from the edge =*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets how much of the page to be taken and location of three sections to left of page  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets structure for right hand panel of articles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,50 +119,33 @@ p {
     background-color: #2589bd;
 }
 
-.benefits .benefit {
+/* change font color and puts space between it and the following article */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-.benefit .benefit .h3 {
+/* change font color and puts space between it and the following article */
+.benefit .h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* Sets constraints and visual implementation of images in each article */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-
-.contents{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.contents img {
-    max-height: 200px;
-}
-
-.contents h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* 
+Styles footer text and padding. Also clears it of the float so it ges across the whole bottom of the page */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Overrides only h2 font size */
 footer h2 {
     font-size: 20px;
 }

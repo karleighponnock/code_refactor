@@ -24,6 +24,8 @@ LIne 31, 38, 45  closing /div changed to /section tag
 
 Line 22,  26, 33, 40, 50 Added alt tag to all images
 
+Move all contents tags up to the rest of the related css
+
 Line 25 class="search-engine-optimization" ADD tag "contents"
 
 Line 39 class attribute changed to contents
@@ -49,10 +51,10 @@ Line 27 selector changed to header nav
 Line 35  selector changed to header nav ul li
 
 
-Line 89 selector changed to .benefits . benefit
+Line 89 selector changed to . benefit
 Three css blocks condensed into this one
 
-Line 95 selecor named .benefit .benefit .h3 to call on new classes
+Line 95 selecor named .benefit .h3 to call on new classes
 Three css blocks condensed into this one
 
 
