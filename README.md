@@ -44,33 +44,42 @@ Line 64 remove closing img tag- img is self closing
 
 #css
 
-Line 11, 18, 23, 27, 35, 39 selector . removed. Semantic tag does not need a dot as it is no longer a class
+Line 13, 21, 26, 31, 40, 45 selector . removed. Semantic tag does not need a dot as it is no longer a class
 
-Line 27 selector changed to header nav 
+Line 30 selector changed to header nav 
 
-Line 35  selector changed to header nav ul li
+Line 40 selector changed toheader nav ul
 
+Line 45 selector changed to header nav ul li
 
-Line 89 selector changed to . benefit
+All contents related css parts moved to corresponding section on css sheet
+
+Line 72 selector changed to .contents to match new class 
+
+Line 81 selectors changed to .contents img to match new class and call on all images each of the three sections
+
+Line 86 selectors changed to .contents h2 to match new class and call on all h2 each of the three sections
+
+Line 123 selector changed to . benefit
 Three css blocks condensed into this one
 
-Line 95 selecor named .benefit .h3 to call on new classes
+Line 129 selecor named .benefit .h3 to call on new classes
 Three css blocks condensed into this one
 
 
-Line 101 Selector .benefit img to match new class
+Line 135 Selector .benefit img to match new class
 Three img selectors condensed into this one
 
-Line 108 Three css sections condensed into this one with a selector of .contents
+Line 123 Three css sections condensed into this one with a selector of .contents
 
-Line 117 Three css sections condensed into this one with a selector .contents img for new class and img attribute
+Line 129 Three css sections condensed into this one with a selector .contents img for new class and img attribute
 
-Line 121 Three css sections condensed into one here with a selector of .contents h2 for new class and h2 tags
+Line 135 Three css sections condensed into one here with a selector of .contents h2 for new class and h2 tags
 
 
-Line 126 footer remove . becuse it is s footer tag not a class anymore
+Line 142 footer remove . becuse it is s footer tag not a class anymore
 
-Line 133 selector changed to footer h2 . removed from footer as it is not longer a class 
+Line 149 selector changed to footer h2 . removed from footer as it is not longer a class 
 
 
 
