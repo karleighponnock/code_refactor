@@ -1,13 +1,15 @@
+/* Creates a box around all elements on page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Sets a color backround for the whole document */
 body {
     background-color: #d9dcd6;
 }
 
+/* Gives H1 and the navigation bar its visual attributes */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,17 @@ header {
     color: #ffffff;
 }
 
+/* Allows H1 and the nav list to be in one horizontal line */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Changes s and e characters in Horiseon title to same color as background */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Structures the three links in navigation bar and gives them a font attribute  */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +36,12 @@ header nav {
     font-size: 20px;
 }
 
+/* Prevents bullets or numbers from showing up on each element of the list */
 header nav ul {
     list-style-type: none;
 }
 
+/* Puts nav elements in line a certain distance from h1 */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
